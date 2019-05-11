@@ -1,0 +1,60 @@
+body{
+background-color: rgb(35, 35, 35);
+}
+h1{
+    color:white;
+    text-align:center;
+    background-color: steelblue;
+}
+#container{
+    margin:auto;
+    max-width:600px;
+}
+.square{
+    display:flex;
+    width: 30%;
+    padding-bottom: 30%;
+    background-color: purple;
+    float: left;
+    margin: 1.66%;
+    border-radius: 15%;
+    }
+    #levels{
+        background: white;
+        height: 30px;
+        text-align: center;
+        color: black;
+    }
+    .selected {
+        color: white;
+        background: steelblue;
+    }
+    
+    #colorDisplay {
+        font-size: 200%;
+    }
+    
+    button {
+        border: none;
+        background: none;
+        text-transform: none;
+        height: 100%;
+        font-weight: 700;
+        color: steelblue;
+        letter-spacing: 1px;
+        font-size: inherit;
+        transition: all 0.4s;
+        -webkit-transition: all 0.4s;
+        -moz-transition: all 0.4s;
+        outline: none;
+    }
+    
+    button:hover {
+        color: white;
+        background: steelblue;
+    }
+    
+    #message {
+        display: inline-block;
+        width: 20%;
+    }
